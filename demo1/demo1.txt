@@ -1,0 +1,33 @@
+Tehtävä 1.1
+
+Git-repo kurssin tehtäville luotu GitHubiin, url kloonausta varten:
+https://github.com/swaniJK/TIEA345.git (löytyy myös Korpista)
+
+Tehtävä 1.2
+
+Nämä tehty Raspbianin graafisen käyttöliittymän kautta:
+
+- Raspin nimi vaihdettu
+- Pi-käyttäjän salasana vaihdettu
+- Raspille on asetettu oikea aikavyöhyke, näppäimistölayout ja wificountry
+
+Komentoriviltä:
+
+- Päivitysten asennus komennoilla
+    - sudo apt-get update
+    - sudo apt-get dist-upgrade
+
+- Tarpeettomat paketit pois
+    - sudo apt-get autoremove
+
+Tehtävä 1.3
+
+Raspin IP: 192.168.0.105
+
+Tarkistin Raspin IP-osoitteen hostname -I komennolla ja avasin SSH-yhteyden Raspiin 
+PuTTYn avulla. Samalla tallensin Raspin tiedot PuTTYyn tulevia yhteydenmuodostuksia varten.
+
+Tehtävä 1.4
+
+Alustin muistikortin, latasin tuoreimman Raspbianin ja kirjoitin käyttöjärjestelmän muistikortille
+Win32DiskImager -työkalun avulla.
