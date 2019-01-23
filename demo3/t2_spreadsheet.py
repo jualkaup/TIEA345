@@ -7,6 +7,8 @@ import Adafruit_DHT
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
+# Demo 3 Tehtävä 2
+
 DHT_TYPE = Adafruit_DHT.DHT11
 DHT_PIN  = 5
 GDOCS_OAUTH_JSON = 'tiea345demo3-229416-6f2b6fdc580f.json'
