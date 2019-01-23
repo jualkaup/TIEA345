@@ -1,0 +1,21 @@
+Tehtävä 2
+
+Linkki Google Sheetsiin: https://docs.google.com/spreadsheets/d/1Pb1aEJMR5-GGRJhfCq6KNNp0oEldKQgE7oMAnnAhDnk/edit#gid=0
+
+Siirsin OAuthin tarvitseman Service Account Key -tiedoston raspille WinSCP:n avulla.
+
+
+Tehtävä 3
+
+Linkki videoon: https://www.youtube.com/watch?v=okMytCumWBI
+
+Pienensin videon resoluutioita parametrien avulla, käytin videon kuvaamiseen komentoa
+raspivid -w 1280 -h 720 -t 15000 -o video.h264
+
+
+Tehtävä 5
+
+Asetin kameran ottamaan kuvan tasatunnein tiedoston t5_cron_picture.py ja Cronin avulla.
+Avasin käyttäjän crontab-tiedoston komennolla crontab -e ja lisäsin sinne rivin
+
+0 * * * * python /home/pi/dev/demo3/t5_cron_picture.py
