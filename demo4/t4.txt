@@ -1,0 +1,6 @@
+Tein seuraavat muutokset motion.conf-tiedostoon:
+
+area_detect 5
+on_area_detect ./t4_script.sh
+output_pictures off 
+ffmpeg_output_movies off

@@ -1,0 +1,10 @@
+Tein seuraavat muutokset motion.conf-tiedostoon:
+
+# Otetaan 20 kuvaa että saadaan tuotettua 10 sec. videota
+post_capture 20
+
+# Max 10 sec. video
+max_movie_time 10
+
+# Tallennetaan pelkkä video
+output_pictures off 

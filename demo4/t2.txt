@@ -1,0 +1,7 @@
+Tein seuraavat muutokset motion.conf-tiedostoon:
+
+# 2 kuvaa ennen liikettä
+pre_capture 2 
+
+# 5 sekuntia kuvia liikkeen jälkeen
+post_capture 10
